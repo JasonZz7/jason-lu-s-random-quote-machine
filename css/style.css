@@ -1,0 +1,55 @@
+* {
+  font-family: Lobster;
+}
+
+body {
+  background-color: cyan;
+  background:url("http://unsplash.com/photos/X9GHkHbJIaU/download?force=true");
+  background-size:cover;
+  height:600px;
+}
+
+.frame {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  height: 300px;
+  width: 600px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+#operator{
+  height:100px;
+}
+
+#quote-area {
+  margin: 30px auto;
+  padding:10px 70px;
+  height:150px;
+}
+
+#tweet {
+  margin-left: 100px;
+  /*text-align:center;
+  width:40px;*/
+}
+
+#new-quote {
+  margin-right: 100px;
+  font-family: Lobster;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: -5%;
+  color:#fff;
+}
+
+.fa-refresh {
+  font-size: 12px;
+}
